@@ -1,0 +1,64 @@
+.side_menu {
+    float: left;
+    width: 20%;
+    margin-top: 50px;
+}
+
+.typo {
+    flex-grow: 1;
+    text-align: "center"
+}
+
+.side_content {
+    margin-top: 50px;
+    float: right;
+    width: 75%;
+}
+
+.vertical-line {
+    border-left: 1px solid #ccc;
+    height: 630px;
+    float: right;
+    box-shadow: 0px 0px 5px #ccc;
+    margin-top: 0px;
+}
+
+.card-shadow {
+    width:  80%;
+    border: 1px;
+    padding: 5px;
+    box-shadow: 0px 0px 5px #ccc;
+    margin-top: 10px;
+    height: 22vw;
+    margin-left: 50px;
+    justify-content: center;
+    display: flex;
+}
+
+.education-columns:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.education-column {
+    float: left;
+    width: 30%;
+    margin-top: 100px;
+}
+
+.education-text {
+    align-self: center;
+}
+
+.horizontal-line {
+    border-left: 1px solid #ccc;
+    width: 500px;
+    float: right;
+    box-shadow: 0px 0px 5px #ccc;
+    margin-top: 0px;
+}
+
+.project_list {
+    margin-left: 100px;
+}
